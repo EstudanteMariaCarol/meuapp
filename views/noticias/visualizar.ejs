@@ -1,0 +1,7 @@
+<% noticia.forEach(function(noticia){ %>
+<div>
+<a href="noticia/visualizar?<%= noticia.id%>">
+<%= noticia.id %> <%= noticia.title %> <%= noticia.subtitle %>
+</a>
+</div>
+<% })%>
